@@ -1,0 +1,140 @@
+SMART MEAL PLANNER - HOW TO RUN THE APP
+
+This file explains how to run the Smart Meal Planner on Mac or Windows.
+
+IMPORTANT SECURITY NOTE
+-----------------------
+You must use a real Gemini API key for the AI Assistant feature.
+Do not use the text PASTE_YOUR_REAL_KEY_HERE.
+Do not put the API key inside a Python file or upload it to GitHub.
+The old key was exposed in a terminal screenshot, so it should be revoked and replaced.
+
+The app needs:
+- Python 3.12 or 3.13
+- Internet access
+- The project files in one folder
+- A valid Gemini API key for the AI feature
+- The packages listed in requirements.txt
+
+============================================================
+RUNNING ON MAC
+============================================================
+
+1. Open Terminal.
+
+2. Move into the project folder:
+
+cd /Users/macpro/Downloads/python_advanced_prj
+
+3. Create a fresh virtual environment:
+
+python3 -m venv .venv
+
+4. Activate the virtual environment:
+
+source .venv/bin/activate
+
+5. Install the required packages:
+
+python -m pip install -r requirements.txt
+
+6. Add your real Gemini API key for this terminal session:
+
+export GEMINI_API_KEY="YOUR_REAL_API_KEY"
+
+Replace YOUR_REAL_API_KEY with your actual key.
+
+7. Start the application:
+
+python main.py
+
+============================================================
+RUNNING ON WINDOWS
+============================================================
+
+1. Install Python 3.12 or 3.13 from:
+
+https://www.python.org/downloads/windows/
+
+During installation, select:
+
+Add Python to PATH
+
+2. Open PowerShell.
+
+3. Move into the project folder. Example:
+
+cd C:\Users\YourName\Downloads\python_advanced_prj
+
+4. Create a fresh Windows virtual environment:
+
+python -m venv .venv
+
+Do not copy the Mac venv folder to Windows. It is not portable.
+
+5. Activate the virtual environment:
+
+.venv\Scripts\activate
+
+6. Install the required packages:
+
+python -m pip install -r requirements.txt
+
+7. Add your real Gemini API key for this PowerShell session:
+
+$env:GEMINI_API_KEY="YOUR_REAL_API_KEY"
+
+Replace YOUR_REAL_API_KEY with your actual key.
+
+8. Start the application:
+
+python main.py
+
+============================================================
+USING THE APP
+============================================================
+
+1. Type a recipe name, ingredient, or category.
+2. Click Search.
+3. Select a recipe from the results list.
+4. Click AI Assistant to receive:
+   - simpler cooking instructions,
+   - a difficulty level,
+   - ingredient substitute suggestions.
+5. Use Add to Favourites to save a recipe.
+6. Choose a day and servings, then click Add to Plan.
+7. Use Show Meal Plan to see planned meals.
+8. Use Generate Shopping List to combine ingredients.
+9. Use Save All to save your data to the JSON files.
+
+============================================================
+IMPORTANT PROJECT NOTES
+============================================================
+
+- Run the application from the project folder because it loads JSON files by filename.
+- TheMealDB requires internet access.
+- Gemini requires internet access and a valid API key.
+- Tkinter is a desktop interface. Run main.py directly on your Mac or Windows computer.
+- GitHub Codespaces can store and edit this project, but it normally cannot display the Tkinter window.
+- The project virtual environment is intentionally excluded from GitHub. Each computer should create its own .venv.
+- If the AI button says the API key is missing, set GEMINI_API_KEY again in the same terminal before running the app.
+
+============================================================
+COMMON COMMANDS
+============================================================
+
+Check Python version:
+
+python --version
+
+Check installed packages:
+
+python -m pip list
+
+Run the app again on Mac after activation:
+
+python main.py
+
+Run the app again on Windows after activation:
+
+python main.py

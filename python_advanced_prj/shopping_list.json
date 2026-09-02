@@ -1,0 +1,142 @@
+[
+  {
+    "name": "penne rigate",
+    "quantity": "1",
+    "unit": "pound",
+    "original": "",
+    "count": 1
+  },
+  {
+    "name": "olive oil",
+    "quantity": "0.25",
+    "unit": "cup",
+    "original": "",
+    "count": 1
+  },
+  {
+    "name": "garlic",
+    "quantity": "3",
+    "unit": "cloves",
+    "original": "",
+    "count": 1
+  },
+  {
+    "name": "chopped tomatoes",
+    "quantity": "1",
+    "unit": "tin",
+    "original": "",
+    "count": 1
+  },
+  {
+    "name": "red chilli flakes",
+    "quantity": "0.5",
+    "unit": "teaspoon",
+    "original": "",
+    "count": 1
+  },
+  {
+    "name": "italian seasoning",
+    "quantity": "0.5",
+    "unit": "teaspoon",
+    "original": "",
+    "count": 1
+  },
+  {
+    "name": "basil",
+    "quantity": "6",
+    "unit": "leaves",
+    "original": "",
+    "count": 1
+  },
+  {
+    "name": "parmigianoreggiano",
+    "quantity": null,
+    "unit": null,
+    "original": "sprinkling",
+    "count": 1
+  },
+  {
+    "name": "pickled grape leaves",
+    "quantity": "900",
+    "unit": "g",
+    "original": "",
+    "count": 1
+  },
+  {
+    "name": "lamb mince",
+    "quantity": "600",
+    "unit": "g",
+    "original": "",
+    "count": 1
+  },
+  {
+    "name": "onion",
+    "quantity": "7.5",
+    "unit": "chopped",
+    "original": "",
+    "count": 1
+  },
+  {
+    "name": "rice",
+    "quantity": "112.5",
+    "unit": "g",
+    "original": "",
+    "count": 1
+  },
+  {
+    "name": "pepper",
+    "quantity": "1.5",
+    "unit": "tsp",
+    "original": "",
+    "count": 1
+  },
+  {
+    "name": "paprika",
+    "quantity": "1.5",
+    "unit": "tsp",
+    "original": "",
+    "count": 1
+  },
+  {
+    "name": "vegetable stock",
+    "quantity": "1.5",
+    "unit": "tsp",
+    "original": "",
+    "count": 1
+  },
+  {
+    "name": "parsley",
+    "quantity": "37.5",
+    "unit": "g",
+    "original": "",
+    "count": 1
+  },
+  {
+    "name": "basil",
+    "quantity": "1.5",
+    "unit": "tsp",
+    "original": "",
+    "count": 1
+  },
+  {
+    "name": "olive oil",
+    "quantity": null,
+    "unit": null,
+    "original": "Splash",
+    "count": 2
+  },
+  {
+    "name": "salt",
+    "quantity": null,
+    "unit": null,
+    "original": "To taste",
+    "count": 2
+  },
+  {
+    "name": "boiling water",
+    "quantity": "3",
+    "unit": "Litres",
+    "original": "",
+    "count": 1
+  }
+]

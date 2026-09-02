@@ -1,0 +1,178 @@
+{
+  "Monday": [
+    {
+      "recipe": {
+        "meal_id": "52771",
+        "name": "Spicy Arrabiata Penne",
+        "category": "Vegetarian",
+        "cuisine": "Italian",
+        "ingredients": [
+          {
+            "name": "penne rigate",
+            "measure": "1 pound"
+          },
+          {
+            "name": "olive oil",
+            "measure": "1/4 cup"
+          },
+          {
+            "name": "garlic",
+            "measure": "3 cloves"
+          },
+          {
+            "name": "chopped tomatoes",
+            "measure": "1 tin"
+          },
+          {
+            "name": "red chilli flakes",
+            "measure": "1/2 teaspoon"
+          },
+          {
+            "name": "italian seasoning",
+            "measure": "1/2 teaspoon"
+          },
+          {
+            "name": "basil",
+            "measure": "6 leaves"
+          },
+          {
+            "name": "Parmigiano-Reggiano",
+            "measure": "sprinkling"
+          }
+        ],
+        "instructions": "Bring a large pot of water to a boil. Add kosher salt to the boiling water, then add the pasta. Cook according to the package instructions, about 9 minutes.\r\nIn a large skillet over medium-high heat, add the olive oil and heat until the oil starts to shimmer. Add the garlic and cook, stirring, until fragrant, 1 to 2 minutes. Add the chopped tomatoes, red chile flakes, Italian seasoning and salt and pepper to taste. Bring to a boil and cook for 5 minutes. Remove from the heat and add the chopped basil.\r\nDrain the pasta and add it to the sauce. Garnish with Parmigiano-Reggiano flakes and more basil and serve warm.",
+        "image_url": "https://www.themealdb.com/images/media/meals/ustsqw1468250014.jpg"
+      },
+      "servings": 4
+    },
+    {
+      "recipe": {
+        "meal_id": "53411",
+        "name": "Dolma Japrak Stuffed Vine Leaves",
+        "category": "Side",
+        "cuisine": null,
+        "ingredients": [
+          {
+            "name": "Pickled Grape Leaves",
+            "measure": "600g"
+          },
+          {
+            "name": "Lamb Mince",
+            "measure": "400g"
+          },
+          {
+            "name": "Onion",
+            "measure": "5 chopped"
+          },
+          {
+            "name": "Rice",
+            "measure": "75g"
+          },
+          {
+            "name": "Pepper",
+            "measure": "1 tsp"
+          },
+          {
+            "name": "Paprika",
+            "measure": "1 tsp"
+          },
+          {
+            "name": "Vegetable Stock",
+            "measure": "1 tsp"
+          },
+          {
+            "name": "Parsley",
+            "measure": "25g"
+          },
+          {
+            "name": "Basil",
+            "measure": "1 tsp"
+          },
+          {
+            "name": "Olive Oil",
+            "measure": "Splash"
+          },
+          {
+            "name": "Salt",
+            "measure": "To taste"
+          },
+          {
+            "name": "Boiling Water",
+            "measure": "2 Litres"
+          }
+        ],
+        "instructions": "\r\n1\r\nPreperation\r\nAdd the onions to a saute pan and fry for 5 minutes in olive oil until the onions start to brown.\r\n2\r\nTurn off the heat and add the meat, rice, pepper, paprika, dried vegetable stock, parsley and basil. Mix all the ingredients together.\r\n3\r\nCarefully unwrap the vine leaves. Place one vine leaf on your hand with the base on the bottom of your palm and the point pointing towards the top. Add a second vine leaf with the point pointing downwards and base of the leaf at the top of your fingers. there should be a good overlap. You can do this on a flat surface if preferred.\r\n4\r\nPlace a spoonful of the meat and rice mixture in the middle of the leaves. Fold the bottom of the leaf over the mixture, fold in both sides and the roll the leaf upwards sealing in the mixture into a parcel shape.\r\n5\r\nLayer a layer of vine leaves covering the bottom of a deep saucepan and then add the vine leaf parcel on top.\r\n6\r\nMake as many vine leaf parcels as the meat and rice mixture will make adding each one to the saucepan. Pack the parcels side by side util the saucepan is covered, then start another layer on top.\r\n7\r\nCooking\r\nPour into the saucepan enough boiling water to just cover the top of the vine leaves and bring to a boil. Leave to simmer with a lid on for 1.5 hours. All water should be absorbed however top up with a little extra boiling water if this happens before the time is up.\r\n8\r\nServing\r\nRemove from the saucepan and leave to cool for 10 minutes before serving.",
+        "image_url": "https://www.themealdb.com/images/media/meals/lqshrh1779648160.jpg"
+      },
+      "servings": 4
+    }
+  ],
+  "Tuesday": [
+    {
+      "recipe": {
+        "meal_id": "53411",
+        "name": "Dolma Japrak Stuffed Vine Leaves",
+        "category": "Side",
+        "cuisine": null,
+        "ingredients": [
+          {
+            "name": "Pickled Grape Leaves",
+            "measure": "600g"
+          },
+          {
+            "name": "Lamb Mince",
+            "measure": "400g"
+          },
+          {
+            "name": "Onion",
+            "measure": "5 chopped"
+          },
+          {
+            "name": "Rice",
+            "measure": "75g"
+          },
+          {
+            "name": "Pepper",
+            "measure": "1 tsp"
+          },
+          {
+            "name": "Paprika",
+            "measure": "1 tsp"
+          },
+          {
+            "name": "Vegetable Stock",
+            "measure": "1 tsp"
+          },
+          {
+            "name": "Parsley",
+            "measure": "25g"
+          },
+          {
+            "name": "Basil",
+            "measure": "1 tsp"
+          },
+          {
+            "name": "Olive Oil",
+            "measure": "Splash"
+          },
+          {
+            "name": "Salt",
+            "measure": "To taste"
+          },
+          {
+            "name": "Boiling Water",
+            "measure": "2 Litres"
+          }
+        ],
+        "instructions": "\r\n1\r\nPreperation\r\nAdd the onions to a saute pan and fry for 5 minutes in olive oil until the onions start to brown.\r\n2\r\nTurn off the heat and add the meat, rice, pepper, paprika, dried vegetable stock, parsley and basil. Mix all the ingredients together.\r\n3\r\nCarefully unwrap the vine leaves. Place one vine leaf on your hand with the base on the bottom of your palm and the point pointing towards the top. Add a second vine leaf with the point pointing downwards and base of the leaf at the top of your fingers. there should be a good overlap. You can do this on a flat surface if preferred.\r\n4\r\nPlace a spoonful of the meat and rice mixture in the middle of the leaves. Fold the bottom of the leaf over the mixture, fold in both sides and the roll the leaf upwards sealing in the mixture into a parcel shape.\r\n5\r\nLayer a layer of vine leaves covering the bottom of a deep saucepan and then add the vine leaf parcel on top.\r\n6\r\nMake as many vine leaf parcels as the meat and rice mixture will make adding each one to the saucepan. Pack the parcels side by side util the saucepan is covered, then start another layer on top.\r\n7\r\nCooking\r\nPour into the saucepan enough boiling water to just cover the top of the vine leaves and bring to a boil. Leave to simmer with a lid on for 1.5 hours. All water should be absorbed however top up with a little extra boiling water if this happens before the time is up.\r\n8\r\nServing\r\nRemove from the saucepan and leave to cool for 10 minutes before serving.",
+        "image_url": "https://www.themealdb.com/images/media/meals/lqshrh1779648160.jpg"
+      },
+      "servings": 2
+    }
+  ],
+  "Wednesday": [],
+  "Thursday": [],
+  "Friday": [],
+  "Saturday": [],
+  "Sunday": []
+}

@@ -1,0 +1,116 @@
+SMART MEAL PLANNER - TEAM PROJECT SUMMARY
+
+1. PROJECT OVERVIEW
+This project is a smart meal planner application built using Python and Tkinter. It allows users to search for recipes, view detailed ingredients and instructions, add meals to a weekly plan, generate shopping lists, save favourite recipes, and use Gemini AI to simplify recipes and suggest substitutes.
+
+The application combines several important parts of software development:
+- user interface design,
+- API integration,
+- data handling,
+- planning logic,
+- and AI integration.
+
+2. TEAM WORK DISTRIBUTION
+The work was realistically divided among five people, each handling a core part of the project.
+
+Person 1 - User Interface and App Flow
+Role:
+This person focused on the Graphical User Interface (GUI) and the main app flow. They created the interface where users can search for meals, select recipes, and interact with different features.
+Main file:
+main.py
+Tasks completed:
+- designed the main application window,
+- created search controls,
+- added result list and recipe display area,
+- implemented buttons for AI assistance, favourites, and meal planning,
+- connected actions to background processing,
+- managed status messages for the user.
+
+Person 2 - API Integration and Data Retrieval
+Role:
+This person was responsible for connecting the app to TheMealDB, the external recipe database.
+Main file:
+mealdb_client.py
+Tasks completed:
+- built the client that sends requests to the MealDB API,
+- searched recipes by name, ingredient, and category,
+- fetched full recipe details using each meal ID,
+- handled errors when no recipe was found or the request failed.
+
+Person 3 - Recipe Model and Data Structure
+Role:
+This person focused on converting raw API data into clean and organised recipe objects.
+Main file:
+recipe.py
+Tasks completed:
+- designed the Recipe class,
+- created a standard structure for recipe data,
+- stored important details such as name, category, cuisine, ingredients, instructions, and image,
+- converted raw JSON from the API into readable Python objects.
+
+Person 4 - Meal Planning and Shopping List Logic
+Role:
+This person built the logical backend for planning meals and shopping.
+Main file:
+planner.py
+Tasks completed:
+- created the meal planner calendar for days of the week,
+- validated servings input,
+- added recipes to different days,
+- stored and retrieved planned meals,
+- generated a combined shopping list from the planned meals,
+- saved and loaded meal data in JSON files.
+
+Person 5 - Gemini AI Integration
+Role:
+This person integrated artificial intelligence into the app so recipes could be improved and simplified.
+Main file:
+planner.py
+Tasks completed:
+- created the GeminiHelper class,
+- sent recipe details to Gemini,
+- asked the AI for simplified instructions,
+- generated difficulty levels,
+- suggested ingredient substitutes,
+- handled API responses and errors cleanly.
+
+3. TEAMWORK SUMMARY
+The project was successfully completed as a collaborative effort. Each member contributed to a different part of the system, and the combination of these roles made the application functional and practical.
+
+The app brings together:
+- interface design,
+- recipe database integration,
+- structured recipe objects,
+- efficient planning logic,
+- and AI-powered recipe improvement.
+
+This division of work reflects how real software projects are usually built: different specialists focus on different modules, then combine them into a complete product.
+
+4. WHERE TO PLACE THE API KEY
+The Gemini API key must be placed as an environment variable before running the app.
+The code checks for either of these names:
+- GEMINI_API_KEY
+- GOOGLE_API_KEY
+
+The key should not be hardcoded inside Python files.
+
+On macOS/zsh, place it in the terminal like this:
+
+export GEMINI_API_KEY="your_real_key_here"
+
+Then start the app:
+
+python main.py
+
+If you want it to stay available every time you open a terminal, add it to your shell profile:
+
+echo 'export GEMINI_API_KEY="your_real_key_here"' >> ~/.zshrc
+source ~/.zshrc
+
+5. IMPORTANT NOTE
+The project is now configured so the Gemini library imports correctly, but the application still requires a valid Gemini API key in the environment to work successfully.
+
+Without a real API key, the AI feature cannot call Google Gemini.
+
+6. FINAL TEAM STATEMENT
+In conclusion, this project was built through effective team collaboration. One member handled the app interface, another managed external recipe data, another structured the recipe model, another implemented meal planning and shopping features, and another connected the AI functionality. Together, the team created a complete smart meal planner application that combines practical cooking tools with modern AI assistance.
