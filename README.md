@@ -176,12 +176,16 @@ A window titled **Smart Meal Planner** should open.
 ## File Structure
 
 ```
-recipe_planner/
+python_advanced_prj/
 │
 ├── recipe.py           # Recipe class and API conversion
 ├── mealdb_client.py    # TheMealDB API communication
 ├── planner.py          # Meal planning, shopping list, Gemini, JSON helpers
 └── main.py             # Tkinter GUI and threading
+├── favourites.json          
+├── meal_plan.json    
+├── shopping_list.json        
+└── requirements.txt             
 ```
 
 - `recipe.py` – defines the `Recipe` object.
